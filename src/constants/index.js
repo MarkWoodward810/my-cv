@@ -48,7 +48,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Mechanical Engineering",
+    title: "Mechanical Design",
     icon: mechanical,
   },
   {
@@ -56,11 +56,11 @@ const services = [
     icon: electronics,
   },
   {
-    title: "Software Development",
+    title: "Embedded Systems",
     icon: software,
   },
   {
-    title: "Product Design",
+    title: "Product Development",
     icon: creator,
   },
 ];
@@ -148,8 +148,8 @@ const experiences = [
     date: "Sep 2025 - Present",
     points: [
       "Led mechanical development of a legacy material handling station with major changes to four key subsystems. Coordinated prototype builds, user and safety-critical testing, and detailed design on an accelerated timeline.",
-      "Collaborated across project, installation, operations, compliance, manufacturing, electrical and software teams to align on design delivery. Assisted manufacturers by providing Standard Operating Procedures (SOPs) and install manuals.",
-      "A core member of the design team developing a first-of-its-kind, public-facing grocery collection station. Leveraged concept generation, sprint workshops, user research, failure-mode analysis, CAD, rapid prototyping and testing to meet ambitious throughput and reliability targets while minimising cost.",
+      "Collaborated across electrical, software, operations and compliance teams to align on design delivery. Provided detailed drawings to ISO BS8888 for manufacture and procedure manuals for install and commissioning.",
+      "Owned subsystem R&D for a first-of-its-kind, public-facing grocery collection station, taking designs from concept throught to production using 3D CAD, design reviews, rapid prototyping, testing and supplier engagement to meet ambitious requirements and timelines.",
        {
         label: "Key skills:",
         value: "Leadership, SOLIDWORKS, Onshape, DfM/DfA, BS8888, GD&T, Design Methods, UX Design, Problem-Solving, Jira",
@@ -163,9 +163,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Mar 2025 - Sep 2025",
     points: [
-      "Coordinated test bench investigations of alternative sensors for the next-generation Ocado 600 series bot, delivering key findings through reports and presentations.",
+      "Led evaluation and integration of next-generation sensor hardware for the Ocado 600 series bot, delivering key findings through reports and presentations.",
+      "Co-invented patent 'Device with helical cable arrangement' to enable a Bot harness cost-down by leading CAD development, prototyping and testing.",
       "Designed and built automated test rigs to simulate bot behavior and verify concepts, integrating electronics, embedded control systems and mechancal components.",
-      "Supported mechanical, electronics, and firmware changes on the 600 Series robot and conducted EMC testing to de-risk any modifications.",
       {
         label: "Key skills:",
         value: "Onshape, Additive Manufacturing (FDM, MJF), Java, C/C++, Arduino, Raspberry Pi, Linux, GitLab, Data Analysis, Collaboration",
@@ -216,8 +216,8 @@ const experiences = [
     date: "Sep 2023 - Mar 2024",
     points: [
       "Led upgrades to third party material handling equipment including design, prototype and testing at client sites.",
-      "Reviewed waste conveyor, plenum fan and tote conveyor designs to proivde technical guidance to suppliers in line with Ocado standards.",
-      "Managed the end of life process for metal totes at Erith CFC, organising displosal on site and logging damage reports.",
+      "Contributed to technical design standards and worked closely with third-party suppliers to ensure high-quality delivery of solutions.",
+      "Developed a practical appreciation for testing in live settings, stakeholder alignment and product behaviour in real-world conditions.",
       {
         label: "Key skills:",
         value: "Onshape, BIM360, SCADA, Product Standards, On-Site Experience, Communication",
@@ -270,7 +270,7 @@ const projects = [
     {
     name: "600 Series Bot Harnessing",
     description:
-      "I developed a patented cable harness routing solution for the 600 Series Bot and verified performance through rapid prototyping, accelerated life testing, data analysis and technical documentation.",
+      "Developed a patented cable harnessing solution for the next-generation 600 Series Bot, leading CAD development and prototyping, and verifying performance through accelerated life testing, automated data collection and analysis.",
     tags: [
       {
         name: "nextjs",
@@ -289,9 +289,9 @@ const projects = [
     source_code_link: "https://www.ocadogroup.com/newsroom/news/ocado-groups-additive-first-bot",
   },
   {
-    name: "Inventory Handling Station",
+    name: "Click & Collect",
     description:
-      "I served as the Lead Mechanical Engineer for redesign and upgrade work to Ocado's Inventory Handling Station, managing the design release of four electromechanical subsystems on an accelerated timeline.",
+      "Owned subsystem R&D for an industry pioneering grocery click & collect station fully integrated with an automated storage and retrieval system (ASRS). Led concepting, design reviews, prototyping and testing to deliver production-ready designs.",
     tags: [
       {
         name: "nextjs",
@@ -306,50 +306,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: OcadoPick,
-    source_code_link: "https://ocadointelligentautomation.com/systems/workstations/pick-store",
-  },
-  {
-    name: "Bot Radio Test Framework",
-    description:
-      "I coordinated the testing of a new Bot radio system on a dense, large-scale wireless testbed. By designing test cases, executing production scenarios, and analysing results, I enhanced the test framework and enabled multi-team testing.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: botcommsGif,
-    source_code_link: "https://careers.ocadogroup.com/blogs/hello-robot",
-  }, 
-  {
-    name: "TwinCAT HMI",
-    description:
-      "I led development of a Human Machine Interface (HMI) critical for diagnosing material handling stations in a warehouse environment. The HMI integrated with the Ocado's software stack and was utilised for testing and commisioning.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: Twincathmi,
-    source_code_link: "https://www.beckhoff.com/en-en/products/automation/twincat-3-hmi/",
+    image: ClickCollect,
+    source_code_link: "https://www.ocadogroup.com/our-solutions/online-grocery/fulfilment/store-based-automation",
   },
   {
     name: "Active Robotic Pinna",
@@ -374,9 +332,9 @@ const projects = [
     pdf_link: pinnaPDF
   },
   {
-    name: "Click & Collect",
+    name: "Inventory Handling Station",
     description:
-      "An industry pioneering grocery click & collect station fully integrated with an automated storage and retrieval system. I am one of the core Mechanical Design Engineers trusted to execute this project successfully.",
+      "Served as the Technical Lead for the development of Ocado's Inventory Handling Station, collaborating across disciplines to deliver the highly integrated electromechanical system to production on an accelerated timeline.",
     tags: [
       {
         name: "nextjs",
@@ -391,8 +349,50 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: ClickCollect,
-    source_code_link: "https://www.linkedin.com/posts/ocadogroup_ocado-store-based-automation-sba-activity-7434912460639395841-5Q5Z",
+    image: OcadoPick,
+    source_code_link: "https://ocadointelligentautomation.com/systems/workstations/pick-store",
+  },
+  {
+    name: "Bot Radio Test Framework",
+    description:
+      "Coordinated test efforts of a new Bot radio product on a dense, large-scale wireless testbed. By designing test cases, executing production scenarios, and analysing results, I enhanced the test framework and enabled multi-team testing.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: botcommsGif,
+    source_code_link: "https://careers.ocadogroup.com/blogs/hello-robot",
+  }, 
+  {
+    name: "TwinCAT HMI",
+    description:
+      "Led development of a Human Machine Interface (HMI) critical for diagnosing material handling stations in a warehouse environment. The HMI integrated with the Ocado's software stack and was utilised for testing and commisioning.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Twincathmi,
+    source_code_link: "https://www.beckhoff.com/en-en/products/automation/twincat-3-hmi/",
   },
 ];
 

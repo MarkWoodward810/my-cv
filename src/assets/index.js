@@ -38,7 +38,7 @@ import series600 from "./600_Series.png"
 import botcommsGif from "./Bot_comms.gif"
 import Twincathmi from "./milestones_2015_twincat-hmi.jpg"
 import OcadoPick from "./OcadoPick.png"
-import ClickCollect from "./clickCollect.png"
+import ClickCollect from "./ACP.png"
 
 import pinnaPDF from "./Active_Artificial_Pinna_for_Sound_Localization_submission_2024-04-02.pdf"
 
