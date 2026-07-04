@@ -50,7 +50,7 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         I'm a mechanical/mechatronics engineer with 3+ years of industry experience developing electromechanical systems.
-        I love tackling complex engineering challenges and delivering safe, high-performing products through concept generation, rapid prototyping, rigourous testing and cross-functional collaboration.
+        I love tackling complex engineering challenges and delivering safe, high-performing products by utilising concept generation, rapid prototyping, rigourous testing and cross-functional collaboration.
         I have served as the lead technical engineer on mutliple projects at Ocado Technology, and I have made tangible contributions to cutting-edge products including warehouse robots, material handling stations and dense robot radio systems.
         My core skills include 3D CAD (Solidworks, Onshape), Design for Manufacture and Assembly (machining, sheet metal, moulding, additive manufacture), Electromechanical Integration, Rapid Prototyping, Simulation (Solidworks, Abaqus), Programming (Python, C/C++), Data Analysis, Supplier Collaboration and Technical Leadership.
         If you're looking for someone who can blend creativity with technical depth, I'd love to help take your projects to the next level.
